@@ -14,6 +14,7 @@ body {
     
 }
 
+/* main container */
 .container{
     width: 100%;
     max-width: 600px;
@@ -22,6 +23,7 @@ body {
     padding: 30px 30px 25px;
 }
 
+/* category options: science and Inspirational */
 .category-control{
     display:flex;
     justify-content: space-between;
@@ -29,6 +31,8 @@ body {
     margin-bottom: 20px;     
 }
 
+
+/* styling of toggle between dark mode theme*/
 .darkMode{
     display: flex;
     align-items: center;
@@ -59,6 +63,7 @@ body {
   background-color: #fff; 
 }
 
+/* toggle switch for dark mode theme */
 
 .toggle-switch{
   position: relative;
@@ -117,6 +122,7 @@ body {
     border-top: 1px solid #ccc;
   }
 
+/* qoute area */
 
   h1{
     font-size: 35px;
@@ -129,11 +135,13 @@ body {
     margin-bottom: 40px;
 }
 
+/* buttons: font+, font- */
 .font-size-controls{
     display: flex;
     justify-content: space-between;
 }
 
+/* buttons styling:  */
 .btn {
     background-color: #000000;
     color: #fff;
@@ -148,7 +156,7 @@ body {
   background-color: #333;
 }
 
-
+/*buttons: random, next and previous */
 .features{
  
     display: flex;

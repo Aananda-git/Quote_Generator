@@ -8,35 +8,45 @@
 </head>
 <body>
     <div class="container">
+
+      <!-- div contains category options and toggle switch for dark theme -->
         <div class="category-control">
-            <label for="category">Category:</label>
+          <!-- category options -->
+            <div class="options">
+                <label for="category">Category:</label>
             <select id="category">
                 <option value="science">Science</option>
                 <option value="inspirational">Inspirational</option>
               </select>
+            </div>
 
-              <label for="dark-mode">Dark Mode:</label>
+            <!-- toggle switch  -->
+              <div class="darkMode">
+                <label for="dark-mode">Dark Mode:</label>
               <div class="toggle-switch">
                 <input type="checkbox" id="dark-mode">
                 <span class="slider"></span>
               </div>
-        </div>
-
-        <div class="content">
-            <h1>Quote of the day</h1>
-            <div class="quote-area">
-                <p class="quote">"The good thing about science is that it's true whether or not you believe in it. - Neil deGrasse Tyson", </p>
-            </div>
-        
-            <div class="font-size-controls">
-                <button id="increase-font" class="btn">Increase Font Size</button>
-                <button id="decrease-font" class="btn">Decrease Font Size</button>
               </div>
         </div>
 
+        <!-- contains quote area and dont size controls -->
+        <div class="content">
+            <h1>Quote of the day</h1>
+            <div class="quote-area">
+                <p class="quote">"</p>
+            </div>
+        <!-- font size  -->
+            <div class="font-size-controls">
+                <button id="decrease-font" class="btn">Font-</button>
+                <button id="increase-font" class="btn">Font+</button>
+                
+              </div>
+        </div>
+        <!-- feature to generate random quotes or navigate to previous or next quote -->
         <div class="features">
-            <button id="randomBtn" class="btn">Random</button>
             <button id="prevBtn" class="btn">Previous</button>
+            <button id="randomBtn" class="btn">Random</button>
             <button id="nextBtn" class="btn">Next</button>
         </div>
         
