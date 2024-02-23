@@ -9,12 +9,14 @@ body {
     align-items: center;
     justify-content: center;
     background-color: #f0f0f0;
+    color: #000000;
     min-height: 100vh;
     
 }
 
 .container{
-    width: 605px;
+    width: 100%;
+    max-width: 600px;
     background: #ffffff;
     border-radius: 15px;
     padding: 30px 30px 25px;
@@ -36,6 +38,27 @@ body {
   background-color: #333;
   color: #fff;
 }
+
+.dark-mode .container {
+  background-color: #444; 
+}
+
+.dark-mode .btn {
+  background-color: #666; 
+}
+
+.dark-mode .btn:hover {
+  background-color: #888; 
+}
+
+.dark-mode .slider {
+  background-color: #666; 
+}
+
+.dark-mode .slider:before {
+  background-color: #fff; 
+}
+
 
 .toggle-switch{
   position: relative;
@@ -118,10 +141,12 @@ body {
     padding: 10px 20px;
     border-radius: 10px;
     cursor: pointer;
-    
+    transition: background-color 0.3s ease;
 }
 
-
+.btn:hover {
+  background-color: #333;
+}
 
 
 .features{
